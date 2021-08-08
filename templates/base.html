@@ -7,6 +7,11 @@
     </head>
     <title>TTP app</title>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{{url_for('index')}}">メイン</a>
+            <a class="navbar-brand" href="{{url_for('index')}}">機能1</a>
+            <a class="navbar-brand" href="{{url_for('index')}}">機能2</a>
+        </nav>
         <div class="jumbotron">
             <h1>
             {% block jumbotron %}
